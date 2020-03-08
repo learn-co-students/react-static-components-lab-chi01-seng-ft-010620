@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import GraceHopperQuoteComponent from './GraceHopperQuoteComponent';
+
 
 export default class MouseComponent extends Component {
 
@@ -10,6 +12,7 @@ export default class MouseComponent extends Component {
     return (
       <div className="bar" id="mouse">
         <canvas id="canvas"></canvas>
+        <GraceHopperQuoteComponent />
       </div>
     )
   }
